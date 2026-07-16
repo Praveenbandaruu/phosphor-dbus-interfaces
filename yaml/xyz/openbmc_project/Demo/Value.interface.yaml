@@ -1,0 +1,12 @@
+description: My custom D-Bus interface  
+properties:  
+  - name: MyValue  
+    type: uint32  
+    description: An example property  
+    default: 0  
+methods:  
+  - name: Reset  
+    description: Resets MyValue to zero  
+signals:  
+  - name: ValueChanged  
+    description: Emitted when MyValue changes
